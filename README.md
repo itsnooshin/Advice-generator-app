@@ -22,7 +22,7 @@ Your users should be able to:
 
 
 
-### Links
+## Links
 
 - Solution URL: [ solution URL ](https://your-solution-url.com)
 - Live Site URL: [live site URL](https://your-live-site-url.com)
@@ -38,18 +38,12 @@ Your users should be able to:
 - Mobile-first workflow
 - Advice Slip API
 
-
-
-
-
-
-
-### Continued development
+## Continued development
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
 
-### Useful resources
+## Useful resources
 1. [Figma](https://www.figma.com/login) - Paste your design image to check the size of containers, width, etc.
 2. [Perfect Pixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi) - Awesome Chrome extension that helps you to match the pixels of the provided design.
 
