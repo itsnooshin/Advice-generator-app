@@ -75,7 +75,7 @@ dist/
 /node_modules
 
 # Ignored Parcel cache files
-.parcel-cache
+.parcel-cache/
 
 # Ignored log files
 npm-debug.log*
@@ -84,3 +84,4 @@ yarn-error.log*
 
 # Ignore package.json file
 package.json
+package-lock.json
