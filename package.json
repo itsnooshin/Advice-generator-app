@@ -1,0 +1,25 @@
+{
+  "name": "advice-generator-app",
+  "version": "1.0.0",
+  "description": "This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsnooshin/Advice-generator-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsnooshin/Advice-generator-app/issues"
+  },
+  "homepage": "https://github.com/itsnooshin/Advice-generator-app#readme",
+  "devDependencies": {
+    "parcel": "^2.9.2"
+  }
+}
