@@ -37,6 +37,7 @@ Your users should be able to:
 - CSS Grid
 - Mobile-first workflow
 - Advice Slip API
+- Parcel npm package manager
 
 ## Continued development
 
@@ -46,6 +47,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 ## Useful resources
 1. [Figma](https://www.figma.com/login) - Paste your design image to check the size of containers, width, etc.
 2. [Perfect Pixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi) - Awesome Chrome extension that helps you to match the pixels of the provided design.
+3. [Advice Slip API](https://api.adviceslip.com/)- random quote generator.
+
 
 
 ## Author
@@ -56,41 +59,3 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Acknowledgments
 A big thank you to anyone providing feedback on my solution. It definitely helps to find new ways to code and find easier solutions!
-
-<!-- # Front-end Style Guide
-
-## Layout
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-## Colors
-
-### Primary
-
-- Light Cyan: hsl(193, 38%, 86%)
-- Neon Green: hsl(150, 100%, 66%)
-
-### Neutral
-
-- Grayish Blue: hsl(217, 19%, 38%)
-- Dark Grayish Blue: hsl(217, 19%, 24%)
-- Dark Blue: hsl(218, 23%, 16%)
-
-## Typography
-
-### Body Copy
-
-- Font size (quote): 28px
-
-### Font
-
-- Family: [Manrope](https://fonts.google.com/specimen/Manrope)
-- Weights: 800
-
-
-
- -->
-

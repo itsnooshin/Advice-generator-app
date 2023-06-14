@@ -63,6 +63,4 @@ typings/
 # Parcel related files
 dist/
 .cache/
-.parcel-cache
-
-.gitignore/
+.parcel-cache/

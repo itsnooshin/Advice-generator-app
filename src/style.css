@@ -1,3 +1,40 @@
-body{
-  background-color: red;
+:root {
+  --color-dark-blue: hsl(218, 23%, 16%);
+  --color-Light-Cyan: hsl(193, 38%, 86%);
+  --color-Neon-Green: hsl(150, 100%, 66%);
+  --body-font :'Manrope', sans-serif;
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+ background-color: var(--color-dark-blue);
+ font-family: var(--body-font);
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.main{
+  width: 500px;
+  background-color: #313A48;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.title{
+  color: var(--color-Neon-Green);
+}
+.icon-dice{
+  background-color: hsl(150, 100%, 66%);
+  padding: 0.8rem;
+  border-radius: 50%;
+  line-height: 10px;
+  text-align: center;
+}
+
