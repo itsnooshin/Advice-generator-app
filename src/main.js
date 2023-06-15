@@ -1,22 +1,25 @@
 'use strict';
 
-const btnmain = document.querySelector('.icon-button');
-const numberRandom = document.querySelector('.advice-number');
-const quoteRandom = document.querySelector('.lead-quote');
+const btnmain = document.querySelector('.main__icon-button');
+const numberRandom = document.querySelector('.main__advice-number');
+const quoteRandom = document.querySelector('.main__lead-quote');
 
 btnmain.addEventListener('click', function () {
-  async function adviceGen() {
+  async function advicerandom() {
     try {
       const response = await fetch('https://api.adviceslip.com/advice');
+      if (!response.ok) {
+        throw new Error('API request failed');
+      }
       const data = await response.json();
       const number = data.slip.id;
       numberRandom.textContent = number;
       const text = data.slip.advice;
       quoteRandom.textContent = text;
-    } catch (err) {
-      throw new Error('API request failed');
+    } catch (error) {
+      console.error('ERROR', error);
     }
   }
 
-  adviceGen().then(res => console.log(res));
+  advicerandom();
 });
