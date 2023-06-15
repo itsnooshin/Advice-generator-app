@@ -47,6 +47,11 @@ body {
   position: absolute;
   bottom:-20px;
 }
+.icon-button:hover{
+  background-color: red;
+  border-radius: 50%;
+  box-shadow:10px 12px 96px 17px rgba(82,255,168,0.91); ;
+}
 .lead-quote{
   color: var(--color-Light-Cyan);
   text-align: center;

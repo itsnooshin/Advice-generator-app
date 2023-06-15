@@ -18,5 +18,5 @@ btnmain.addEventListener('click', function () {
     }
   }
 
-  adviceGen();
+  adviceGen().then(res => console.log(res));
 });
